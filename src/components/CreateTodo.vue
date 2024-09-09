@@ -30,4 +30,15 @@ const handleAddTodo = () => {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.create-todo input[type="text"] {
+  display: block;
+  width: 100%;
+  font-size: 1.125rem;
+  background-color: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: var(--shadow);
+}
+</style>

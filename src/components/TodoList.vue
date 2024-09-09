@@ -1,6 +1,6 @@
 <template>
   <h3>Todo List</h3>
-  <div>
+  <div class="list">
     <TodoItem
       v-for="todo in todos"
       :key="todo.createdAt"
@@ -23,3 +23,7 @@ const removeTodo = (todo) => {
   emit("removeTodo", todo);
 };
 </script>
+
+<style scoped>
+
+</style>

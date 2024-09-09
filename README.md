@@ -1,5 +1,35 @@
-# Vue 3 + Vite
+# List of Tasks
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This project is a simple task management application built with Vue.js and Vite. It allows users to add, edit, and manage tasks with local storage support.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Getting Started
+
+These instructions will help you set up and run the application on your local machine.
+
+### Prerequisites
+
+- **Node.js**
+- **npm**
+
+### Installation
+
+Follow these steps to get the project up and running:
+
+1. **Clone the repository:**
+
+   First, clone the repository to your local machine using Git:
+
+   git clone https://github.com/ayoublzr/list-of-tasks.git
+
+2. **Navigate to the project directory:**
+
+cd list-of-tasks
+
+3. **Install dependencies:**
+
+npm install
+
+
+4. **Running the Application**
+
+npm run dev
