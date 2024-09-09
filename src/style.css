@@ -57,11 +57,11 @@ button:hover {
 }
 .todo-list .list {
   margin: 1rem 0;
-} 
+}
 .todo-list .todo-item {
   display: flex;
   align-items: center;
-  background-color: #FFF;
+  background-color: #fff;
   padding: 1rem;
   border-radius: 0.5rem;
   box-shadow: var(--shadow);
@@ -71,7 +71,8 @@ button:hover {
   opacity: 0.75;
 }
 
-input:not([type="radio"]):not([type="checkbox"]), button {
+input:not([type="radio"]):not([type="checkbox"]),
+button {
   border: none;
   outline: none;
 }

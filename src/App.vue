@@ -1,25 +1,22 @@
 <template>
   <section class="header">
-    <h1>
-      My Tasks List
-    </h1>
+    <h1>My Task List</h1>
   </section>
-  <section>
-    <MainView />
-  </section>
+  <router-view />
 </template>
 
 <script setup>
-import MainView from './views/MainView.vue'
-</script>
+import { useRouter } from "vue-router";
 
+const router = useRouter();
+</script>
 <style scoped>
- .header {
+.header {
   display: flex;
-  justify-content: center;  
-  align-items: center;      
-  height: 50px;            
-  background-color: var(--light); 
-  color: var(--dark)
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: var(--light);
+  color: var(--dark);
 }
 </style>
